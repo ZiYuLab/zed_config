@@ -1,0 +1,103 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "context_servers": {
+    "mcp-server-context7": {
+      "enabled": false,
+      "remote": false,
+      "settings": {}
+    },
+    "mcp-server-github": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "github_personal_access_token": "GITHUB_PERSONAL_ACCESS_TOKEN"
+      }
+    }
+  },
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "show_whitespaces": "selection",
+  "vim": {
+    "cursor_shape": {
+      "normal": "block",
+    },
+    "use_smartcase_find": false,
+    "toggle_relative_line_numbers": false,
+  },
+  "minimap": {
+    "max_width_columns": 100,
+    "display_in": "active_editor",
+    "show": "never",
+  },
+  "scrollbar": {
+    "cursors": true,
+    "show": "auto",
+  },
+  "relative_line_numbers": "enabled",
+  "which_key": {
+    "enabled": true,
+  },
+  "icon_theme": "Catppuccin Frappé",
+  "base_keymap": "VSCode",
+  "preview_tabs": {
+    "enabled": false,
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+  },
+  "tabs": {
+    "file_icons": true,
+    "show_close_button": "hover",
+    "show_diagnostics": "errors",
+  },
+  "bottom_dock_layout": "contained",
+  "vim_mode": true,
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "prettier": {
+    "allowed": true,
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3-pro-preview",
+    },
+    "model_parameters": [],
+  },
+  "buffer_font_weight": 800.0,
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Catppuccin Frappé - No Italics",
+  },
+
+  "languages": {
+    "C++": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server",
+    },
+    "Python": {
+      "format_on_save": "on",
+    },
+  },
+}
